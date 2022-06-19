@@ -188,6 +188,7 @@ html {
   }
   .formulario h2{
     font-size: 25px;
+    margin-bottom: 10px;
   }
   
   .formulario input[type="text"],
@@ -283,7 +284,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 0px 70px;
-color: white;
+  color: white;
 }
 
 .footer2 .info{
@@ -295,7 +296,36 @@ color: white;
   display: flex;
   padding: 15px 0px;
 }
+.footer2 h6{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.footer2 p{
+  font-size: 0.75rem;
+  color: rgba(138, 135, 135, 1);
+
+}
+.footer2 img {
+  margin-right: 15px;
+}
+
+
+
 /*SECCION DEL FOOTER 2*/
+
+
+/*SECCION FOOTER COPYRIGHT */
+footer .copyright{
+  text-align: center;
+  background-color: rgba(34, 34, 34, 1);
+color: white;
+font-size:0.7rem;
+padding: 4px;
+}
+/*SECCION FOOTER COPYRIGHT*/
+
+
 
 /*---------------------------------------------------------------------------*/
 /*RETINA TABLETS*/
@@ -371,6 +401,10 @@ color: white;
 @media (max-width:700px){
   .footer2{
     flex-direction: column;
+  }
+  .footer2 .logo{
+    margin-top: 15px;
+    order: -1;
   }
 }
 
@@ -462,7 +496,7 @@ color: white;
 /*BARRA de navegacion*/
 
 /*SECCION DEL BANNER*/
-@media  (max-width: 799px) {
+@media  (max-width: 700px) {
   .bannerPrincipal {
     background-image: url("../img/banner.png");
     background-size: cover;
@@ -479,10 +513,10 @@ color: white;
   }
 
   .ctaBanner H2 {
-    margin: auto;
-    font-size: 25px;
+    text-align: center;
+      font-size: 1.2rem;
     background-color: white;
-    padding: 10px 0px;
+    padding: 15px 15px;
     color: rgba(60, 35, 19, 1);
     font-weight: 400;
     border-radius: 4px;
@@ -507,6 +541,7 @@ color: white;
 @media (max-width:480px){
 .formulario{
 width: 298px;
+
 }
 }
 /*FORMULARIO */
@@ -559,6 +594,25 @@ padding:5px 3px;
     margin: auto;
     padding-right: 0px;
   }
+
+
+.footer2 h6{
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
-
+.footer2 p{
+  font-size: 0.75;
+  color: rgba(138, 135, 135, 1);
+  margin-top: 0.5rem;
+}
+.footer2 img {
+  margin-right: 15px;
+}
+footer .copyright{
+  text-align: center;
+  background-color: rgba(34, 34, 34, 1);
+color: white;
+font-size:0.8rem;
+}
+}
